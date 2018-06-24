@@ -1,4 +1,4 @@
-#XamlEngine
+# XamlEngine
 
 Development Phase: Experimental
 
@@ -8,7 +8,7 @@ Fonts are downloaded at runtime because there isn't access to the local system f
 
 Check out the running demo here: [http://www.xamlengine.com](http://www.xamlengine.com)
 
-##Usage
+## Usage
 The current version is available for use freely as-is from it's location. Use at your own risk. There is no production support for this currently.
 
 
@@ -49,9 +49,9 @@ The current version is available for use freely as-is from it's location. Use at
 ##Features
 At this point the feature set is very limited. The current features that exist are only to satisfy a proof-of-concept.
 
-###UIElement
+### UIElement
 
-###FrameworkElement
+### FrameworkElement
 Width
 
 Height
@@ -61,24 +61,24 @@ VerticalAlignment
 HorizontalAlignment
 
 
-###ContentControl
+### ContentControl
 Limited support for ContentControl has been created to satisfy UserControl functionality, as UserControl inherits from ContentControl. It doesn't currently support ContentTemplates.
 
-####Properties:
+#### Properties:
 Content
 
-###UserControl
+### UserControl
 Currently the UserControl is used as the root Xaml element.
 
-###Canvas
+### Canvas
 
-###Grid
-####Properties:
+### Grid
+#### Properties:
 RowDefinitions
 
 ColumnDefinitions
 
-####Attached Properties:
+#### Attached Properties:
 Row
 
 RowSpan
@@ -87,20 +87,20 @@ Column
 
 ColumnSpan
 
-###Image
+### Image
 Very limited support for images has been created. It currently works with a handful of PNGs. But others are having issues. This is a bug that's currently being looked at. If the image doesn't render properly, a black rectangle is rendered in place.
-####Properties:
+#### Properties:
 Source
 
 
-###Rectangle
+### Rectangle
 Currently only supports fill with a SolidColorBrush.
-####Properties:
+#### Properties:
 Fill
 
-###TextBlock
+### TextBlock
 
-####Properties:
+#### Properties:
 Text
 
 Foreground
@@ -111,5 +111,5 @@ TextAlignment
 
 TextWrapping
 
-##Current Effort
+## Current Effort
 After achieving the initial proof-of-concept, the goal is to now focus on keyboard and mouse input. This also means that integrating with higher-level languages like (but not limited to) Javascript is necessary. So this effort will include access to the Xaml DOM. In addition, bug fixes, performance improvements will also continue.
