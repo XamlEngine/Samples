@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>XamlEngine.com</title>
+</head>
+<body>
+    <script type="text/xaml" pageLayout="full">
+        <UserControl>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100" />
+                    <RowDefinition />
+                    <RowDefinition Height="100" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Rectangle Fill="#FF000000" Grid.Row="0" />
+                <TextBlock Text="XamlEngine" Foreground="#FFFFFFFF" Grid.Row="0" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                <TextBlock Text="This page has been rendered natively from Xaml in your browser using WebAssembly & WebGL." Grid.Row="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Stretch" TextAlignment="Center" TextWrapping="Wrap" />
+                <Rectangle Fill="#FF000000" Grid.Row="2" />
+                <TextBlock Text="Copyright XamlEngine.com 2018" Foreground="#FFFFFFFF" Grid.Row="2" FontSize="18" VerticalAlignment="Bottom" />
+                <TextBlock Text="More info: contact@xamlengine.com" Foreground="#FFFFFFFF" Grid.Row="2" FontSize="18" VerticalAlignment="Bottom" HorizontalAlignment="Right" />
+            </Grid>
+        </UserControl>
+    </script>
+    <script type="text/javascript" src="http://resources.xamlengine.com/scripts/alpha/1.0.0/XamlEngine.js"></script>
+</body>
+</html>
