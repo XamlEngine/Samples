@@ -1,6 +1,12 @@
 # XamlEngine
 
-Development Phase: Experimental
+##8/16/2018 Update:
+
+I have decided to release the code as open-source under the MIT license. There are still a lot of issues that need to be worked out. Over the next few weeks I will try to document everything that's there. Hopefully the community will contribute to make something we all want. And if nothing else, maybe it will be educational for folks trying to develop for WASM/Emscripten.
+
+The code can be found here:
+[https://github.com/XamlEngine/Core](https://github.com/XamlEngine/Core)
+
 
 XamlEngine has been created to enable Xaml to be rendered natively in the browser. While the goal is to keep it compatible with .NET, it has no .NET dependencies. It has been authored completely in C++ targeting OpenGL. Emscripten is used to compile a WASM package which translates the OpenGL bindings to WebGL. Because the use of OpenGL, any platform could be targeted. However, the browser is currently the highest priority. 
 
