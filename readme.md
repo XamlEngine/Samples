@@ -1,6 +1,6 @@
 # XamlEngine
 
-##8/16/2018 Update:
+## 8/16/2018 Update:
 
 I have decided to release the code as open-source under the MIT license. There are still a lot of issues that need to be worked out. Over the next few weeks I will try to document everything that's there. Hopefully the community will contribute to make something we all want. And if nothing else, maybe it will be educational for folks trying to develop for WASM/Emscripten.
 
